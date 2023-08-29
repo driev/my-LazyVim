@@ -9,6 +9,8 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+  -- add tmux navigator
+  { "christoomey/vim-tmux-navigator" },
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
